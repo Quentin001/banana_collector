@@ -21,24 +21,24 @@ The reward function simply returns +1 for collecting a yellow banana and -1 for 
 ### Installation
 The instructions below are tested under Ubuntu 18.04. They are from https://github.com/udacity/deep-reinforcement-learning/tree/master/p1_navigation where you will find instructions for Windows and MAC too.
 
-# Clone the following project from github
+#### Clone the following project from github
 git clone https://github.com/udacity/deep-reinforcement-learning.git
 deep-reinforcement-learning/python
 
-# Create a virtual environment for the project dependencies
+#### Create a virtual environment for the project dependencies
 python -m virt_env ./virt_env
 
-# Activate the virtual environment
+#### Activate the virtual environment
 source virt_env/bin/activate
 
 # Install dependencies
 pip install .
 
-# Download the Unity environment
+#### Download the Unity environment
 Click the link corresponding to your operation system at https://github.com/udacity/deep-reinforcement-learning/tree/master/p1_navigation
 under "Getting started", and download the file in the p1_navigation/ folder in the GitHub repository, and decompress it.
 
-# Run the Jupyther notebook 
+#### Run the Jupyther notebook 
 Copy the file proj_1.ipynb from my github repository in your p1_navigation/ folder and from that folder run the following command:
 jupyter notebook proj_1.ipynb
 
