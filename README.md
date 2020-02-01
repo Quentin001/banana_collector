@@ -11,7 +11,7 @@ git clone https://github.com/udacity/deep-reinforcement-learning.git
 cd deep-reinforcement-learning/python
 ```
 
-##### Create a virtual environment for the project dependencies
+##### Create a virtual environment for the project dependencies
 ```
 python -m virt_env ./virt_env
 ```
