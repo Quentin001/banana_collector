@@ -22,10 +22,9 @@ The reward function simply returns +1 for collecting a yellow banana and -1 for 
 The instructions below are tested under Ubuntu 18.04. They are from https://github.com/udacity/deep-reinforcement-learning/tree/master/p1_navigation where you will find instructions for Windows and MAC too.
 
 #### Clone the following project from github
-´´´
-git clone https://github.com/udacity/deep-reinforcement-learning.git
-cd deep-reinforcement-learning/python
-´´´
+
+>git clone https://github.com/udacity/deep-reinforcement-learning.git
+>cd deep-reinforcement-learning/python
 
 #### Create a virtual environment for the project dependencies
 python -m virt_env ./virt_env
@@ -52,5 +51,4 @@ The learning requires less than 500 episodes (after around 500 episodes of 1000 
 that is superior to 13).
 
 After the learning phase, the trained agent is tested at the end of the notebook. The agent shows clearly its ability to collect yellow bananas and avoid blue bananas.
-
 
